@@ -4,7 +4,6 @@ from PIL import Image, ImageTk
 from functools import partial
 import os
 import sys
-# Raphael Thierry
 
 def resource_path(relative_path):
     try:
@@ -18,7 +17,7 @@ class Calculadora:
     def __init__(self):
         self.janela = ttk.Window(themename="darkly")
         self.janela.geometry('400x750')
-        self.janela.title('Calculadora SENAI')
+        self.janela.title('Calculadora do Thierry')
 
         self.cor_fundo = 'black'
         self.cor_botao = 'secondary'
